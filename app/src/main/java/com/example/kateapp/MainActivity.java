@@ -45,7 +45,7 @@ public class MainActivity extends AppCompatActivity {
                             case 3:
                                 b_1.setBackgroundColor(getResources().getColor(R.color.grey));
                                 b_2.setBackgroundColor(getResources().getColor(R.color.grey));
-                                b_3.setBackgroundColor(getResources().getColor(R.color.red));
+                                b_3.setBackgroundColor(getResources().getColor(R.color.pink));
                                 count=0;
                                 break;
                         }
