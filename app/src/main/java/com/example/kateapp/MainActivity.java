@@ -8,7 +8,7 @@ import android.widget.Button;
 import android.widget.LinearLayout;
 
 public class MainActivity extends AppCompatActivity {
-    private LinearLayout b_1, b_2, b_3;
+    private LinearLayout b_1, b_2, b_3, b_4;
     private Button button_1;
     private boolean start_stop=false;
     private int count=0;
@@ -19,6 +19,7 @@ public class MainActivity extends AppCompatActivity {
         b_1 = findViewById(R.id.bulb_1);
         b_2 = findViewById(R.id.bulb_2);
         b_3 = findViewById(R.id.bulb_3);
+        b_4 = findViewById(R.id.bulb_4);
         button_1 = findViewById(R.id.button_1);
     }
 
@@ -36,16 +37,25 @@ public class MainActivity extends AppCompatActivity {
                                 b_1.setBackgroundColor(getResources().getColor(R.color.green));
                                 b_2.setBackgroundColor(getResources().getColor(R.color.grey));
                                 b_3.setBackgroundColor(getResources().getColor(R.color.grey));
+                                b_4.setBackgroundColor(getResources().getColor(R.color.grey));
                                 break;
                             case 2:
                                 b_1.setBackgroundColor(getResources().getColor(R.color.grey));
                                 b_2.setBackgroundColor(getResources().getColor(R.color.yellow));
                                 b_3.setBackgroundColor(getResources().getColor(R.color.grey));
+                                b_4.setBackgroundColor(getResources().getColor(R.color.grey));
                                 break;
                             case 3:
-                                b_1.setBackgroundColor(getResources().getColor(R.color.yellow));
-                                b_2.setBackgroundColor(getResources().getColor(R.color.red);
-                                b_3.setBackgroundColor(getResources().getColor(R.color.pink));
+                                b_1.setBackgroundColor(getResources().getColor(R.color.grey));
+                                b_2.setBackgroundColor(getResources().getColor(R.color.grey));
+                                b_3.setBackgroundColor(getResources().getColor(R.color.red));
+                                b_4.setBackgroundColor(getResources().getColor(R.color.grey));
+                                break;
+                            case 4:
+                                b_1.setBackgroundColor(getResources().getColor(R.color.grey));
+                                b_2.setBackgroundColor(getResources().getColor(R.color.grey));
+                                b_3.setBackgroundColor(getResources().getColor(R.color.grey));
+                                b_4.setBackgroundColor(getResources().getColor(R.color.pink));
                                 count=0;
                                 break;
                         }
